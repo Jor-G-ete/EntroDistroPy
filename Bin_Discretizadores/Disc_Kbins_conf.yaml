@@ -1,0 +1,31 @@
+# Bins Number
+bins: 10
+
+# Columns to discretize
+columns_to_dis:
+  - ROI
+  - Net_revenue
+
+# Codification : Availables onehot / onehot-dense / ordinal
+codificacion: 'onehot'
+
+# Input path
+input_path: "./Data/"
+# Input file
+input_file: "datos_discretizar.csv"
+
+# Input delimiter
+input_sep: ";"
+
+# Output path
+output_path: "./Results/"
+
+# Output file
+output_file: "Salida.csv"
+
+# Output delimiter
+output_sep: ";"
+
+# Discretizer type ( By now just one )
+Discretizador: 1
+

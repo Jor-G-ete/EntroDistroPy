@@ -1,0 +1,69 @@
+# Input path
+input_path: "./Data/"
+# Input file
+input_file: "datos_discretizar.csv"
+
+# separator
+input_sep: ";"
+
+# Output path
+output_path: "./Results/"
+
+# output file
+output_file: "salida.csv"
+
+# separator
+output_sep: ";"
+
+# Standarization data
+columns_to_standarize:
+  - Avg_cpc
+  - Max_cpc
+  - Net_revenue
+  - Cost
+  - Avg_position
+  - ROI
+
+# Normalization Data
+columns_to_normalize:
+  - Avg_cpc
+  - Max_cpc
+  - Net_revenue
+  - Cost
+  - Avg_position
+  - ROI
+
+# select between 0: preprocessing.scale, 1: Standar scale , 2: zscore
+std_method: 2
+
+# Selet the type of df generated to be used in the discretization:
+#         norm-> Normalized, std -> Standarized, norm_std -> Normalized and Standarized
+df_type: "norm_std"
+
+# Cols to be discretized by entropy.
+cols_discretize_entropy:
+  - Avg_cpc
+  - Max_cpc
+  - Net_revenue
+  - Cost
+  - Avg_position
+
+# Load a saved pretrained machine
+# Load_pretrained_machine: "MultinomialNB.sav"
+Load_pretrained_machine: ""
+
+# Choose the column to be inputed in the bayesian algorithm
+Target_column: "ROI_11kbins_discretized"
+
+# Choose the algorithm of the bayesian machine
+Bayesian_algorithm: 0
+
+# Perform the operation of correlation to check how the columns of the df are related with the others
+Correlation: True
+
+# Choose or not if you want to train a bayesian machine learning model
+Deploy_Bayesian: True
+
+# Select the type of df generated to be used with the bayesian algorithm:
+#        norm-> Normalized, std -> Standarized, norm_std -> Normalized and Standarized
+df_bayes_type: "norm_std"
