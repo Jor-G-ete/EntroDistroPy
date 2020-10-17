@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 # variables to automatize the process
-version = "0.3"
+version = "0.4"
 name_lib = "EntroDistroPy"
 
 with open("README.md", "r") as rmd:
@@ -22,7 +22,7 @@ setup(
       download_url="https://github.com/Jor-G-ete/"+name_lib+"/archive/v"+version+".tar.gz",
       project_urls={
            "Documentation":"https://github.com/Jor-G-ete/"+name_lib,
-           "Source Code":"https://github.com/Jor-G-ete/"+name_lib+"/blob/master/"+name_lib+"/Entropy_dis.py"
+           "Source Code":"https://github.com/Jor-G-ete/"+name_lib+"/blob/master/Entropy_dis.py"
       },
       platforms="Windows",
       keywords=["python3.7", "Maths", "scikit-learn", "Discretizier", "Entropy", "Binner"],
