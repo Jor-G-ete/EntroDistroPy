@@ -14,8 +14,8 @@ setup(
       license="GNU General Public License v3.0",
       description="Library which creates an entropy discretizier and overlays discretizers"
                   " from main libraries such a sikit-learn ",
-      author="Jorge Lopez Marcos & Enrique F.Viamontes Peron",
-      author_email="jlomar2005@hotmail.com",
+      author="Jorge Lopez Marcos & Enrique F.Viamontes Pernas",
+      author_email="jlomar2005@hotmail.com & envipe79@gmail.com",
       maintainer="Jorge Lopez Marcos",
       maintainer_email="jlomar2005@hotmail.com",
       url="https://github.com/Jor-G-ete/"+name_lib,

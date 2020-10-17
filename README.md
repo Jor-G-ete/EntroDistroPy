@@ -4,12 +4,12 @@
 [![](https://img.shields.io/pypi/l/EntroDistroPy.svg)](https://github.com/Jor-G-ete/EntroDistroPy/blob/master/LICENSE)
 [![](https://img.shields.io/github/downloads/Jor-G-ete/EntroDistroPy/total)]()
 [![](https://img.shields.io/github/last-commit/Jor-G-ete/EntroDistro)]()
-[![](https://img.shields.io/github/v/release/Jor-G-ete/EntroDistroPy)]()
+[![](https://img.shields.io/github/v/release/Jor-G-ete/EntroDistroPy)](https://github.com/Jor-G-ete/EntroDistroPy/releases)
 [![](https://img.shields.io/github/v/tag/Jor-G-ete/EntroDistroPy)]()
 
 
 
-EntroDistroPy is a library which brings a collections of binners or discretiziers. Also it aims to create a whole IA model in which can be inputed a csv, after it will be analyzed, processed and converted to talk the same language as a machine learning model. Finally it would should be able to extract conclusions. The use-case which will be used in the library it's how to improve the ROI when a product is bought. Another idea in development in this library is that could be tunned and know which parameters modify to improve the column chosen or desired( in our case will be the ROI) and be tunned to obtain the maximum ROI or extract conclusion on how the parameters behave.
+EntroDistroPy was created and developed thanks an idea of Enrique F. Viamontes Pernas which was my mentor and tutor and almost all the credit should go to him. This is a library which brings a collections of binners or discretiziers. Also it aims to create a whole IA model in which can be inputed a csv, after it will be analyzed, processed and converted to talk the same language as a machine learning model. Finally it would should be able to extract conclusions. The use-case which will be used in the library it's how to improve the ROI when a product is bought. Another idea in development in this library is that could be tunned and know which parameters modify to improve the column chosen or desired( in our case will be the ROI) and be tunned to obtain the maximum ROI or extract conclusion on how the parameters behave.
 
 ## Installation
 
