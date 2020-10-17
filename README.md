@@ -1,4 +1,4 @@
-# EntroDistro
+# EntroDistroPy
 
 [![](https://img.shields.io/pypi/pyversions/EntroDistro.svg)](https://pypi.org/project/EntroDistro/)
 [![](https://img.shields.io/pypi/l/EntroDistro.svg)](https://github.com/Jor-G-ete/EntroDistro/blob/master/LICENSE)
@@ -22,7 +22,7 @@ EntroDistro is a library which brings a collections of binners or discretiziers.
 ### Pip
 
 ```python3
-    pip3 install EntroDistro
+    pip3 install EntroDistroPy
 ```
 
 ## What it's entropy discretization ? Why should be used?

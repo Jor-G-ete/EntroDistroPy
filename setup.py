@@ -1,15 +1,15 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 # variables to automatize the process
-version = "0.1"
-name_lib = "DistroEntro"
+version = "0.3"
+name_lib = "EntroDistroPy"
 
 with open("README.md", "r") as rmd:
       long_description = rmd.read()
 
 setup(
       name= name_lib,
-      packages=[name_lib],
+      packages=find_packages(),
       version=version,
       license="GNU General Public License v3.0",
       description="Library which creates an entropy discretizier and overlays discretizers"
