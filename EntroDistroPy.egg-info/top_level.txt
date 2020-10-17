@@ -1,2 +1,0 @@
-Bin_Discretizadores
-Entropy_Discretizadores

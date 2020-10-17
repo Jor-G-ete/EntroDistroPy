@@ -1,8 +1,0 @@
-networkx
-numpy
-matplotlib
-pyyaml
-scikit-learn
-pandas
-scipy
-yellowbrick

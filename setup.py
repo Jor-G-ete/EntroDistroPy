@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 # variables to automatize the process
-version = "0.4"
+version = "0.5"
 name_lib = "EntroDistroPy"
 
 with open("README.md", "r") as rmd:
