@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 # variables to automatize the process
-version = "0.5"
+version = "0.6"
 name_lib = "EntroDistroPy"
 
 with open("README.md", "r") as rmd:
@@ -14,8 +14,8 @@ setup(
       license="GNU General Public License v3.0",
       description="Library which creates an entropy discretizier and overlays discretizers"
                   " from main libraries such a sikit-learn ",
-      author="Jorge Lopez Marcos & Enrique F.Viamontes Pernas",
-      author_email="jlomar2005@hotmail.com & envipe79@gmail.com",
+      author="Jorge Lopez Marcos, Enrique F.Viamontes Pernas",
+      author_email="jlomar2005@hotmail.com, envipe79@gmail.como",
       maintainer="Jorge Lopez Marcos",
       maintainer_email="jlomar2005@hotmail.com",
       url="https://github.com/Jor-G-ete/"+name_lib,

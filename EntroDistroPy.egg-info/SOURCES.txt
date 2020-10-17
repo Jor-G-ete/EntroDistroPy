@@ -1,0 +1,13 @@
+README.md
+setup.py
+Bin_Discretizadores/KBins_Discretizador.py
+Bin_Discretizadores/__init__.py
+EntroDistroPy.egg-info/PKG-INFO
+EntroDistroPy.egg-info/SOURCES.txt
+EntroDistroPy.egg-info/dependency_links.txt
+EntroDistroPy.egg-info/requires.txt
+EntroDistroPy.egg-info/top_level.txt
+Entropy_Discretizadores/Entropy.py
+Entropy_Discretizadores/MDLP.py
+Entropy_Discretizadores/Test_file.py
+Entropy_Discretizadores/__init__.py
